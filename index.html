@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CalendarMCP</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.55; color: #222; background: #fff; }
+  h1, h2 { line-height: 1.2; }
+  code { background: #f2f2f2; padding: 0 .25em; border-radius: 3px; }
+</style>
+</head>
+<body>
+<h1>CalendarMCP</h1>
+<p>CalendarMCP is a personal, self-hosted tool that runs on its owner's own Windows computer. It lets the owner's AI assistant (Claude) read and manage the owner's own Google and Outlook calendar appointments. It is not offered to the public.</p>
+
+<h2 id="privacy">Privacy policy</h2>
+<p><em>Last updated: 22 November 2026</em></p>
+<ul>
+  <li><strong>What it accesses:</strong> calendar events and the list of calendars of the Google accounts that the owner signs in with. It uses the scopes <code>calendar.events</code> and <code>calendar.calendarlist.readonly</code>. It does not access Gmail, contacts, Drive or any other Google data.</li>
+  <li><strong>Where data goes:</strong> calendar data travels only between Google's API and the program on the owner's computer, and from there to the owner's AI assistant when the owner asks a question. There is no CalendarMCP server. Nothing is sent to the developer or to any third party, and nothing is sold or used for advertising.</li>
+  <li><strong>Storage:</strong> CalendarMCP does not keep copies of calendar data. The OAuth refresh token and client secret are stored in Windows Credential Manager on the owner's computer, and never in plain-text files.</li>
+  <li><strong>Revoking access:</strong> run <code>calendar-mcp logout &lt;account&gt;</code>, or remove the app at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  <li><strong>Google API Services User Data Policy:</strong> CalendarMCP's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+  <li><strong>Contact:</strong> the app's support email, as shown on Google's sign-in screen.</li>
+</ul>
+</body>
+</html>
